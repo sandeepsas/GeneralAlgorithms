@@ -1,6 +1,17 @@
 package SortAlgorithms;
 
+//@Author Sandeep Sasidharan
+
+import java.util.Arrays;
+
 public class MergeSortClass {
+	
+	public static void main(String[] args) {
+		int[] intArr = {2,7,2,9,0,5,3,4,5,8};
+		int[] result = MergeSortClass.mergeSort(intArr);
+		System.out.println("Before Sort: "+Arrays.toString(intArr));
+		System.out.println("After Sort: "+Arrays.toString(result));
+	}
 	
 	public static int[] mergeSort(int[] intArr) {
 
@@ -15,6 +26,10 @@ public class MergeSortClass {
 			left[i] = intArr[i];
 		}
 		int[] right;
+		/*
+		 * Can be replace by: right = new int[intArr.length - left.length];
+		 * 
+		 * */
 		if(intArr.length%2==0){
 			right = new int[midpoint];
 
