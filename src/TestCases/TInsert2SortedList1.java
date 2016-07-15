@@ -31,6 +31,9 @@ public class TInsert2SortedList1 {
 			j++;
 			
 		}
+		if(flag ==0)
+			outArr[j]= nb;
+		
 		System.out.println("Final Array: "+Arrays.toString(outArr));
 
 	}
