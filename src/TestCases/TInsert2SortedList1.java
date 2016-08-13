@@ -25,7 +25,6 @@ public class TInsert2SortedList1 {
 				outArr[j]=nb;
 				flag = 1;
 				j++;
-				outArr[j]=inputArr[i];
 			}
 			outArr[j]=inputArr[i];
 			j++;
