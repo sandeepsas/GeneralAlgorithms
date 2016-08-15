@@ -1,7 +1,5 @@
 package HackerRank;
 
-import java.util.Scanner;
-
 class CustomExceptionPower {
 
 	public static void main(String[] args) {
